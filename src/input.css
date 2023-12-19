@@ -5,3 +5,7 @@
 .radial-blue{
     background: radial-gradient(#64E9EE, #4062BB);
 }
+
+html {
+    scroll-behavior: smooth;
+}

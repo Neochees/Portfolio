@@ -872,7 +872,7 @@ html {
 }
 
 .effect .spike {
-  animation: animate 0.75s infinite;
+  animation: animate 0.75s;
 }
 
 @keyframes animate {

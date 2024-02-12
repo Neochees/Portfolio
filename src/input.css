@@ -32,7 +32,7 @@ html {
     translateY(var(--distance));
   }
   .effect .spike {
-    animation: animate 0.75s infinite;
+    animation: animate 0.75s;
   }
 
   @keyframes animate {

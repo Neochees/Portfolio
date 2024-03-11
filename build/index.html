@@ -15,15 +15,25 @@
                 <a href="./index.html">Thijmen</a>
             </h1>
             <div>
-                <button id="mobile-open-button" class="text-3xl sm:hidden focus:outline-none">
+                <button id="hamburger-button" class="text-3xl md:hidden cursor-pointer">
                     &#9776;
                 </button>
-                <nav class="hidden sm:block space-x-8 text-xl" aria-label="main">
+                <nav class="hidden md:block space-x-8 text-xl" aria-label="main">
                     <a href="#about" class="hover:opacity-90">About</a>
                     <a href="#git" class="hover:opacity-90">Git</a>
                     <a href="#projects" class="hover:opacity-90">Projects</a>
                 </nav>
             </div>
+        </section>
+        <section id="mobile-menu" class="absolute top-0 bg-black w-full text-5xl flex-col justify-content-center origin-top animate-open-menu hidden">
+            <button class="text-8xl self-end px-6">
+                &times;
+            </button>
+            <nav class="flex flex-col min-h-screen items-center py-8" aria-label="mobile">
+                <a href="#about" class="w-full text-center py-6 hover:opacity-90">About</a>
+                <a href="#git" class="w-full text-center py-6 hover:opacity-90">Git</a>
+                <a href="#projects" class="w-full text-center py-6 hover:opacity-90">Projects</a>
+            </nav>
         </section>
     </header>
     <main class="max-w-4xl mx-auto">

@@ -42,12 +42,10 @@ ageDivs[0].innerText = "I am " + age + " years old";
 
 // Hamburger menu code
 
-    console.log('werk?')
     const hamburgerBtn = document.getElementById('hamburger-button')
     const mobileMenu = document.getElementById('mobile-menu')
 
     const togglemenu = () => {
-        console.log('werk');
         mobileMenu.classList.toggle('hidden')
         mobileMenu.classList.toggle('flex')
     }
